@@ -41,3 +41,21 @@ ul{
     justify-content: center;
     align-items: center;
 }
+
+#hero-main{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-left,.content-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
