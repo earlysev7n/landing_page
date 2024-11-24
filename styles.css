@@ -16,6 +16,7 @@ body{
 #header-logo{
     font-size: 24px;
     color: #f9faf8;
+ 
 }
 
 .header-link{
@@ -35,11 +36,22 @@ ul{
     flex-direction: row;
 }
 
-.navbar-left,.navbar-right{
+.navbar-left{
     display: flex;
     width: 50%;
     justify-content: center;
     align-items: center;
+    margin-right: 420px;
+    margin-top: 10px;
+}
+
+
+.navbar-right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 
 #hero-main{
@@ -78,6 +90,7 @@ img{
 .hero-secondary{
     font-size: 18px;
     color: #e5e7eb;
+    padding-top: 10px;
 }
 
 .sign-up-first-sect{
@@ -90,4 +103,61 @@ img{
     justify-content: center;
     align-items: center;
     margin-right: 230px;
+    margin-top: 15px;
 }
+
+ #info-header{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .images-second-sect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+ }
+
+ .images-row-second{
+    margin-right: 100px;
+ }
+
+ .p-uimg{
+    justify-content: center;
+    align-items: center;
+ }
+
+ .third-section{
+    background-color: #e5e7eb;
+    padding: 100px;
+    margin-top: 100px;
+ }
+
+ #quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+ }
+
+ #author{
+    display: flex;
+    justify-content: right;
+    margin-right: 300px;
+ }
+
+ .fourth-section{
+    padding: 100px;
+    margin-top: 100px;
+ }
+
+ .banner{
+    background-color: #3882f6;
+ }
