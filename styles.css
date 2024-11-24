@@ -47,15 +47,47 @@ ul{
     color: #f9faf8;
     font-weight: bolder;
 }
-
+ 
 .content{
     display: flex;
     flex-direction: row;
+    margin: 50px;
 }
 
-.content-left,.content-right{
+.content-right{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 50%;
+}
+
+.content-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 150px;
+}
+
+img{
+    margin: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-secondary{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up-first-sect{
+    background-color: #3882f6;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #3882f6;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 230px;
 }
